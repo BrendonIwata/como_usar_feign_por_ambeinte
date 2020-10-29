@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: 'feignperenviroment'
+  profiles:
+    active:
+    - '@spring.profile@'
+
+logging:
+  level:
+    br.com.brendoniwata.client.ClienteClient: DEBUG
+feign:
+  client:
+    config:
+      default:
+        loggerLevel: full

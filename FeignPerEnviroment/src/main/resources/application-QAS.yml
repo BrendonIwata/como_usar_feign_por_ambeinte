@@ -1,0 +1,5 @@
+feign:
+  name:
+    site: cliente
+  url:
+    site: http://localhost:8081/qas
